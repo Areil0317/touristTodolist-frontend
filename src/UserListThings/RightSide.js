@@ -324,11 +324,11 @@ function RightSide({
                     </Col>
                     <Col sm={2}></Col>
                 </Row>
-                <Row className="text-left">
-                    <Col sm={1}></Col>
+                <Row className="text-right">
+
                     <Col sm={4}>
                         <a onClick={changeMoneyClick}>
-                            費用管理
+                            費用
                             <img
                                 src="/UserListSource/money.png"
                                 style={{ width: "20px", height: "20px", paddingBottom: "0" }}
@@ -342,7 +342,7 @@ function RightSide({
                     <Col className="text-right" sm={4}>
                         <NavLink to="/ratings">
                             <a id="ratings">
-                                評論與評價
+                                評論
                                 <img
                                     src="/UserListSource/comment.png"
                                     style={{ width: "20px", height: "20px", paddingBottom: "0" }}
@@ -351,7 +351,7 @@ function RightSide({
                             </a>
                         </NavLink>
                     </Col>
-                    <Col sm={3}>
+                    <Col sm={4}>
                         <a onClick={changePhotoClick}>
                             相簿
                             <FaImages
@@ -370,12 +370,10 @@ function RightSide({
             {sidebarContent === "default" && (
                 <div>
                     <Row className="m-4" style={{ alignItems: "center" }}>
-                        <Col sm={1}></Col>
                         <Col sm={10}>
                             <Form.Label className="text-left ">出發日期</Form.Label>
                         </Col>
                         <Col sm={1}></Col>
-
                         <Col sm={1}></Col>
                         <Col className="text-center" sm={10}>
                             <Form.Control
@@ -388,7 +386,6 @@ function RightSide({
                         <Col sm={1}></Col>
                     </Row>
                     <Row className="m-4" style={{ alignItems: "center" }}>
-                        <Col sm={1}></Col>
                         <Col sm={10}>
                             <Form.Label className="text-left ">時間</Form.Label>
                         </Col>
@@ -437,7 +434,6 @@ function RightSide({
                         ))}
 
                     <Row className="m-4" style={{ alignItems: "center" }}>
-                        <Col sm={1}></Col>
                         <Col sm={10}>
                             <Row className="text-right">
                                 <Col sm={5} className="d-flex align-items-center">
@@ -484,8 +480,7 @@ function RightSide({
 
                     {/* <Project></Project> */}
                     <Row className="m-4" style={{ alignItems: "center" }}>
-                        <Col sm={1}></Col>
-                        <Col sm={10}>
+                        <Col sm={11}>
                             <Form.Label className="text-left ">備註</Form.Label>
                         </Col>
                         <Col sm={1}></Col>

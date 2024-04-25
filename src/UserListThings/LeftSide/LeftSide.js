@@ -48,7 +48,7 @@ function UserInfo() {
       />
     </Col>
     <Col style={{ marginBottom: 2 }} className="text-left" sm={6} xs={6}>
-      <Typography variant="h3" sx={{ ml: 2 }}>
+      <Typography variant="h4" sx={{ ml: 2 }}>
         {user.name}
       </Typography>
     </Col>

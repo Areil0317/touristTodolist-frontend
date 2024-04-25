@@ -332,7 +332,7 @@ function RightSide({
                 </Row>
                 <Row className="text-center">
                     <Col xs={1}></Col>
-                    <Col xs={4}>
+                    <Col xs={3}>
                         <a onClick={changeMoneyClick}>
                             費用管理
                             <img
@@ -342,7 +342,7 @@ function RightSide({
                             />
                         </a>
                     </Col>
-                    <Col className="text-right" xs={4}>
+                    <Col className="text-right" xs={3}>
                         <NavLink to="/ratings">
                             <a id="ratings">
                             評論與評價

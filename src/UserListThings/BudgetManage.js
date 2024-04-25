@@ -210,7 +210,7 @@ function BudgetManage({ totalAmount, alldata, selectedTlid, setAllData, update_i
 
     return (
         <>
-            <Row className='m-4'>
+            <Row className='m-2'>
 
                 <Col sm={1} xs={0}></Col>
                 <Col sm={10} xs={10}><Form.Label className='text-left'>預算金額(元)</Form.Label></Col>
@@ -227,8 +227,8 @@ function BudgetManage({ totalAmount, alldata, selectedTlid, setAllData, update_i
                 </Col>
                 <Col sm={1} xs={1}></Col>
 
-                <Col sm={1} xs={0}></Col>
-                <Col sm={10} xs={12} className='mt-4' style={{ display: listData.totalamount ? 'block' : 'none' }}>
+
+                <Col sm={11} xs={12} className='mt-4' style={{ display: listData.totalamount ? 'block' : 'none' }}>
                     <PieChart
                         style={{ width: '100%' }}
                         height='300'

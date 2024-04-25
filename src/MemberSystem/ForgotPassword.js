@@ -10,7 +10,7 @@ function ForgotPassword() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = async (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
 
     try {
       const response = await fetch(`${API_HOST}/api/forgot-password`, {
@@ -66,7 +66,9 @@ function ForgotPassword() {
           }}
           className="desktop-img"
         >
-          <img src="\UserListSource\forgetpassword.png"></img>
+          <img src="\UserListSource\forgetpassword.png" style={{
+            height: "500px",
+          }}></img>
         </div>
         <div className="login-system">
           <div className="col-12 col-md-10">

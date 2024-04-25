@@ -544,7 +544,7 @@ function TwoAreaMiddleXS({ setAllData, selectedTlid, selectedjid, alldata, setrw
           </Col>
           <Col xs={1}></Col>
           <Col className="text-center">
-            <NavLink to="/prelist">
+            {/* <NavLink to="/prelist">
               <a id="prelist">
                 <img
                   src="/UserListSource/bag.png"
@@ -553,7 +553,7 @@ function TwoAreaMiddleXS({ setAllData, selectedTlid, selectedjid, alldata, setrw
                 />
                 行前清單
               </a>
-            </NavLink>
+            </NavLink> */}
           </Col>
           <Col xs={1}></Col>
         </Row>

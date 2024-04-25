@@ -77,12 +77,12 @@ function Login() {
           <img
             src="\UserListSource\login.png"
             style={{
-              height: "600px",
+              height: "500px",
             }}
           ></img>
         </div>
         <div className="login-system">
-          <div className="col-12 col-md-10">
+          <div className="col-11 col-md-10">
             <h2>登入</h2>
             <br></br>
             <div>

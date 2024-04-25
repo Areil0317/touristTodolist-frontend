@@ -70,11 +70,10 @@ const HomePage = () => {
           </li>
         </ul>
       </div>
-      <br></br>
-      <h1 style={{ padding: "25px", textAlign: "center", fontWeight: "bold" }}>
+      <h1 style={{ padding: "15px", textAlign: "center", fontWeight: "bold" }}>
         逐項完成，一個旅行TO-DO-LIST，一段美好旅程！
       </h1>
-      <h3
+      <h4
         className="responsive-hide"
         style={{
           padding: "0px 150px",
@@ -83,16 +82,15 @@ const HomePage = () => {
         }}
       >
         透過我們的旅行TO-DO-LIST網站，將你的夢想一步步地轉化為現實。計劃你的下一個冒險，記錄下你想要體驗的一切，然後，讓我們幫助你實現它們。開始你的旅程，盡情探索世界，收集美好回憶！
-      </h3>
-      <br></br>
+      </h4>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           className="desktop-img"
           src="\UserListSource\homepage.png"
           style={{
             margin: "25px",
-            width: "45%",
-            height: "550px",
+            width: "40%",
+            height: "470px",
           }}
         ></img>
         <img
@@ -101,8 +99,8 @@ const HomePage = () => {
           alt="Sample"
           style={{
             margin: "25px",
-            width: "48%",
-            height: "520px",
+            width: "54%",
+            height: "480px",
           }}
         />
 

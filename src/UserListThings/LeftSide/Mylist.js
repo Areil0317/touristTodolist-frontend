@@ -13,11 +13,11 @@ function DateInfo({ startDate, endDate }) {
     return (
       <Row className='mt-3' style={{ alignItems: 'center' }}>
         {/* <Col sm={1}></Col> */}
-        <Col className=' text-center'><p className='text4 supportColor'>{renderDate(startDate)}</p></Col>
-        <Col className=' text-center'>
-          <img style={{ width: "24px", height: '24px', marginBottom: '12px', paddingBottom: '0' }} src="/UserListSource/to.png" alt="Icon" />
-        </Col>
-        <Col className=' text-center'><p className='text4 supportColor'>{renderDate(endDate)}</p></Col>
+        <Col className=' text-center'><p className='text5 supportColor'>起始日：{renderDate(startDate)}</p></Col>
+        {/* <Col className=' text-center'>
+          <img style={{ width: "15px", height: '15px', marginBottom: '12px', paddingBottom: '0' }} src="/UserListSource/to.png" alt="Icon" />
+        </Col> */}
+        <Col className=' text-center'><p className='text5 supportColor'>結束日：{renderDate(endDate)}</p></Col>
         {/* <Col sm={1}></Col> */}
       </Row>
     );

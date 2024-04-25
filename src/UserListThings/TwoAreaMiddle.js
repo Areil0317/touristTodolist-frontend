@@ -551,7 +551,7 @@ function TwoAreaMiddle({ setAllData, selectedTlid, selectedjid, alldata, update_
         </Row>
         <Row className="m-4" style={{ alignItems: "center" }}>
           {/* <Col sm={1}></Col> */}
-          <Col className="text-center" sm={4} xs={5}>
+          <Col className="text-center" sm={5} xs={5}>
             <Form.Control ref={startDate} value={listdata.start_date} type="date" onChange={handleStartDateChange} onBlur={handleUpdateListClick} />
           </Col>
           <Col className="text-center" sm={1} xs={1}>
@@ -561,10 +561,10 @@ function TwoAreaMiddle({ setAllData, selectedTlid, selectedjid, alldata, update_
               alt="The next icon"
             />
           </Col>
-          <Col className="text-center" sm={4} xs={5}>
+          <Col className="text-center" sm={5} xs={5}>
             <Form.Control ref={endDate} value={listdata.end_date} onChange={handleEndDateChange} type="date" onBlur={handleUpdateListClick} />
           </Col>
-          <Col className="text-center d-none d-sm-block" sm={2}>
+          {/* <Col className="text-center d-none d-sm-block" sm={2}>
             <NavLink to="/prelist">
               <a id="prelist">
                 <img
@@ -575,7 +575,7 @@ function TwoAreaMiddle({ setAllData, selectedTlid, selectedjid, alldata, update_
                 行前清單
               </a>
             </NavLink>
-          </Col>
+          </Col> */}
           <Col sm={1}></Col>
         </Row>
       </Row>

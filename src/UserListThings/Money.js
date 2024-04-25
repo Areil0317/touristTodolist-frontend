@@ -22,7 +22,7 @@ function Money({ totalAmount, setShowMoney, alldata, selectedTlid, setAllData, u
 
     return (
         <>
-            <Row className='m-4' style={{ alignItems: 'center' }}>
+            <Row className='' style={{ alignItems: 'center' }}>
                 <Row>
                     <Col>
                         <a onClick={changeMoneyClick}><img src='/UserListSource/list.png' style={{ width: "20px", height: '20px', paddingBottom: '0' }} className='m-1' />返回</a>

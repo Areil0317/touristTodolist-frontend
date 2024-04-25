@@ -80,7 +80,6 @@ function Register() {
         </div>
       </nav>
       <div
-        className="mt-5"
         style={{
           display: "flex",
         }}
@@ -95,7 +94,7 @@ function Register() {
           <img
             src="\UserListSource\register.png"
             style={{
-              height: "600px",
+              height: "500px",
             }}
           ></img>
         </div>
